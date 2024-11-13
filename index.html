@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Augusto Pereira Emiliano | Portfólio</title>
+  <meta name="description"
+    content="Portfólio do desenvolvedor front-end Augusto Pereira para compartilhar projetos e habilidades desenvolvidas" />
+  <link rel="shortcut icon" href="assets/favicon/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+</head>
+
+<body>
+  <header class="header">
+    <nav class="header__nav">
+      <ul class="menu menu--principal">
+        <li class="menu__item">
+          <a href="#home" class="menu__link active">
+            <span class="menu__text">Home</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a href="#Projetos" class="menu__link">
+            <span class="menu__text">Projetos</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a href="#Sobre" class="menu__link">
+            <span class="menu__text">Sobre</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a href="#Contato" class="menu__link">
+            <span class="menu__text">Contato</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="header__brand">
+      <img class="brand__logo" src="/assets/images/icon.png" alt="logo" />
+    </div>
+    <div class="header_toggle">
+      <i id="toggle-theme" class="bi bi-brightness-high"></i>
+    </div>
+  </header>
+
+  <nav>
+    <ul class="menu menu--mobile">
+      <li class="menu__item">
+        <a href="#home" class="menu__link active">
+          <i class="menu__icon bi bi-house-door"></i>
+          <span class="menu__text">Home</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a href="#Projetos" class="menu__link">
+          <i class="menu__icon bi bi-window-stack"></i>
+          <span class="menu__text">Projetos</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a href="#Sobre" class="menu__link">
+          <i class="menu__icon bi bi-person"></i>
+          <span class="menu__text">Sobre</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a href="#Contato" class="menu__link">
+          <i class="menu__icon bi bi-envelope"></i>
+          <span class="menu__text">Contato</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="main__content1">
+      <h1>Soluções criativas & Desenvolvimento Front-End</h1>
+      <p class="information">Augusto Pereira Emiliano, Ituiutaba-MG, Desenvolvedor Front-End</p>
+      <ul class="menu menu--principal">
+        <li>
+          <a class="menu__link" href="https://github.com/augustope99" target="_blank">
+            <i class="menu__icon bi bi-github"></i>
+          </a>
+        </li>
+        <li>
+          <a class="menu__link" href="https://www.linkedin.com/in/augustope99/" target="_blank">
+            <i class="menu__icon bi bi-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a class="menu__link" href="https://wa.me/5521987654321" target="_blank">
+            <i class="menu__icon bi bi-whatsapp"></i>
+          </a>
+        </li>
+      </ul>
+      <a href="#Projetos">
+      <button class="btn btn--primary">
+        <span>Ver Projetos</span>
+        <i class="bi bi-arrow-down-right"></i>
+      </button>
+      </a>
+      <div class="main__content2">
+        <video autoplay loop id="video" playsinline>
+          <source src="introdução.mp4" type="video/mp4">
+        </video>
+      </div>
+    </main>
+
+    <section class="technologies">
+      <h2> <span class="highlight">Principais</span> habilidades do mercado!</h2>
+      <ul class="skills__list">
+        <li>
+          <img src="react.png" alt="react">React
+          <img src="html5.png" alt="react">HTML5
+          <img src="css.png" alt="react">CSS
+          <img src="js.png" alt="react">JavaScript
+        </li>
+      </ul>
+    </section>
+
+    <section id="Projetos" class="projects">
+      <h2>Projetos</h2>
+      <div class="projects__container">
+        <div class="projects__card">
+          <img class="card__cover" src="invertedworld.png" alt="invertedworld">
+          <div class="card__body">
+            <h3 class="card__title">Layout Interativo</h3>
+            <p class="card__description">Alteração de temas da página</p>
+            <ul class="card__list">
+              <li class="card__item">Alteração de temas via JavaScript</li>
+              <li class="card__item">Responsividade</li>
+              <li class="card__item">Layout mais atrativo para os clientes</li>
+            </ul>
+            <ul class="technologies__list">
+              <li class="technologies__item">
+                <img class="technologies__logo" src="css.png" alt="CSS">
+              </li>
+              <li class="technologies__item">
+                <img class="technologies__logo" src="html5.png" alt="HTML5">
+              </li>
+              <li class="technologies__item">
+                <img class="technologies__logo" src="js.png" alt="JAVASCRIPT">
+              </li>
+            </ul>
+            <div class="card__buttons">
+              <a href="https://augustope99.github.io/StrangerDio/">
+              <button class="btn btn--primary">
+                <span>Prévia</span>
+                <i class="bi bi-arrow-up-right"></i>
+              </button>  
+              </a>
+              <a href="https://github.com/augustope99/StrangerDio.git">
+              <button class="btn">
+                <span>Repositório</span>
+              </button>  
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="projects__card card--reverse">
+          <img class="card__cover" src="assets/projetos/ralfgame.png" alt="yugiohgame">
+          <div class="card__body">
+            <h3 class="card__title">Jogo do Detona Ralf</h3>
+            <p class="card__description">Jogo criado para testar a implementação de aleatoriedade via JavaScript.</p>
+            <ul class="card__list">
+              <li class="card__item">Alta utilização de funções do JavaScript</li>
+              <li class="card__item">Manipulação de Bibliotecas</li>
+              <li class="card__item">Veja mais</li>
+            </ul>
+            <ul class="technologies__list">
+              <li class="technologies__item">
+                <img class="technologies__logo" src="css.png" alt="CSS">
+              </li>
+              <li class="technologies__item">
+                <img class="technologies__logo" src="html5.png" alt="HTML5">
+              </li>
+              <li class="technologies__item">
+                <img class="technologies__logo" src="js.png" alt="JAVASCRIPT">
+              </li>
+            </ul>
+            <div class="card__buttons">
+              <a href="https://augustope99.github.io/jogo-dio/">
+              <button class="btn btn--primary" href="">
+                <span>Prévia</span>
+                <i class="bi bi-arrow-up-right"></i>
+              </button>  
+            </a>
+            <a href="https://github.com/augustope99/jogo-dio.git">
+              <button class="btn" href="">
+                <span>Repositório</span>
+              </button>  
+            </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="projects__card">
+          <img class="card__cover" src="assets/projetos/spiderworld.png" alt="spiderverse">
+          <div class="card__body">
+            <h3 class="card__title">Layout em homenagem ao filme do Homem-Aranha no Aranha Verso</h3>
+            <p class="card__description">Sistemas de troca simultânea de páginas</p>
+            <ul class="card__list">
+              <li class="card__item">Permite que o usuário selecione diferentes itens em um carrossel, ajustando a rotação do carrossel e destacando o botão ativo correspondente.</li>
+              <li class="card__item">Interações de hover sobre os cartões, adicionando ou removendo uma classe e alterando o ID do corpo da página.</li>
+            </ul>
+            <ul class="technologies__list">
+              <li class="technologies__item">
+                <img class="technologies__logo" src="css.png" alt="CSS">
+              </li>
+              <li class="technologies__item">
+                <img class="technologies__logo" src="html5.png" alt="HTML5">
+              </li>
+              <li class="technologies__item">
+                <img class="technologies__logo" src="js.png" alt="JAVASCRIPT">
+              </li>
+            </ul>
+            <div class="card__buttons">
+              <a href="https://augustope99.github.io/Multi-verso/" target="_blank">
+              <button class="btn btn--primary" >
+                <span>Prévia</span>
+                <i class="bi bi-arrow-up-right"></i>
+              </button> 
+            </a> 
+            <a href="https://github.com/augustope99/Multi-verso.git">
+              <button class="btn">
+                <span>Repositório</span>
+              </button>  
+            </a>
+            </div>
+          </div>
+        </div>
+
+        <a href="https://github.com/augustope99">
+          <button class="btn btn--primary">
+            <span>Ver Todos os Projetos</span>
+            <i class="bi bi-arrow-up-right"></i>
+          </button>  
+        </a>
+      </div>
+    </section>
+
+    <section id="Sobre" class="about">
+      <div class="about__content1">
+        <img class="about__photo" src="assets/images/avatar.jpeg">
+        <div class="about__description">
+          <h2>Sobre mim</h2>
+          <p>Augusto Pereira. Apaixonado por desenhos e tecnologias, meu primeiro contato com programação foi em um curso de games quando tinha 15 anos. Atualmente curso Análise e Desenvolvimento de Sistemas na ESTÁCIO e sou um DIO Campus Expert.</p>  
+          <div class="about__icons">
+            <i class="bi bi-translate"></i>
+            <span>Inglês: Intermediário | Espanhol: Básico</span>
+          </div>
+          <div class="description__buttons">
+            <a href="https://www.linkedin.com/in/augustope99/" target="_blank">
+              <button class="btn btn--primary">
+                <span>Conecte-se Comigo</span>
+                <i class="bi bi-arrow-up-right"></i>
+              </button> 
+            </a>
+            <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">
+              <button class="btn">
+                <span>Currículo</span>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="about__content2">
+        <div class="col1">
+          <div class="row1">
+            <h3>Formação</h3>
+            <h4>Análise e Desenvolvimento de Sistemas</h4>
+            <span>Julho 2024 - Atualmente</span>
+            <div class="about__icons">
+              <i class="bi bi-bank"></i>
+              <span>Estácio</span>
+            </div>
+            <div class="about__icons">
+              <i class="bi bi-mortarboard"></i>
+              <span>Diploma de Desenvolvedor de Front-End da Ri Happy</span>
+            </div>
+          </div>
+          
+          <div class="row2">
+            <h3>Experiências</h3>
+            <h4>Técnico de Informática</h4>
+            <span>Maio de 2023 | Atualmente</span>
+            <span>Secretaria Municipal de Saúde</span>
+            <span>Suporte de Sistemas, Manutenção de redes e CPUs, implementação de sistemas.</span>
+            <ul class="about__list">
+              <li class="about__item">Manutenção de sistemas em nuvem</li>
+              <li class="about__item">Reparo em CPUs e redes</li>
+              <li class="about__item">Suporte no geral, presencial e remotamente</li>
+            </ul>
+
+            <h4>DIO Campus Expert</h4>
+            <span>Outubro 2024 | Atualmente</span>
+            <span>DIO.me</span>
+            <ul class="about__list">
+              <li class="about__item">Mentorias de liderança</li>
+              <li class="about__item">Desafios de mentorias e acessos exclusivos</li>
+              <li class="about__item">Alto aperfeiçoamento de soft skills</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col2">
+          <h3>Cursos</h3>
+          <div id="accordion">
+            <div class="accordion__item active">
+              <button class="accordion__header start">
+                <span>Front-End Bootcamp da RiHappy</span>
+                <i class="bi bi-caret-down-fill"></i>
+              </button>
+              <div class="accordion__body">
+                <p>
+                  Digital Innovation One. Nov 2024.
+                </p>
+                <p>
+                  Domine a trinca fundamental do bom desenvolvedor Front-End com HTML, CSS e JAVASCRIPT, com uma base estruturada de conteúdos e 10 projetos práticos, incluindo páginas web responsivas e dinâmicas! É um conteúdo completo e totalmente alinhado com o dia a dia de desenvolvedores Front-End, com mentorias dos próprios experts da Ri Happy.
+                </p>
+              </div>
+            </div>
+        <div class="col2">
+          <div id="accordion">
+            <div class="accordion__item active">
+              <button class="accordion__header start">
+                <span>IT Google Specialist</span>
+                <i class="bi bi-caret-down-fill"></i>
+              </button>
+              <div class="accordion__body">
+                <p>
+                  Coursera | Google. 6 meses.
+                </p>
+                <p>
+                  O Google IT Support Professional Certificate no Coursera ensina os fundamentos de TI, como configurar e solucionar problemas em sistemas operacionais (Windows, macOS e Linux), redes de computadores, segurança cibernética e ferramentas de suporte. O curso também foca em habilidades de atendimento ao cliente e comunicação. É ideal para iniciantes, sem requisitos prévios, e prepara você para trabalhar em suporte técnico, administração de sistemas ou redes. Ao concluir, você recebe um certificado amplamente reconhecido.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Contato" class="contact">
+      <h2>Contate-me</h2>
+      <p>Estou disponível para serviços e novas conexões. Contate-me via whatsapp e conecte-se comigo através das minhas redes sociais.</p>
+      <ul class="menu menu--social">
+        <li>
+          <a class="menu__link" href="https://github.com/augustope99" target="_blank">
+            <i class="menu__icon bi bi-github"></i>
+            <span>GitHub</span>
+          </a>
+        </li>
+        <li>
+          <a class="menu__link" href="https://www.linkedin.com/in/augustope99" target="_blank">
+            <i class="menu__icon bi bi-linkedin"></i>
+            <span>LinkedIn</span>
+          </a>
+        </li>
+        <li>
+          <a class="menu__link" href="https://wa.me/5534992032859" target="_blank">
+            <i class="menu__icon bi bi-whatsapp"></i>
+            <span>Whatsapp</span>
+          </a>
+        </li>
+      </ul>
+      <a href="mailto:augustope99@gmail.com">
+        <button class="btn btn--primary">
+          <span class="email">augustope99@gmail.com</span>
+        </button>  
+      </a>
+    </section>
+
+    <footer class="creditos">℗ 2024. Todos os direitos reservados. <br>Augusto Pereira Emiliano</footer>
+  </main>
+
+  <script src="scripts.js">
+    var video = document.getElementById('video');
+    video.muted = false;
+    video.oncanplay = function () {
+      setTimeout(function () {
+        video.muted = false;
+      }, 1000);
+    };
+  </script>
+</body>
+
+</html>
